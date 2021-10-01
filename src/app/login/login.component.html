@@ -1,0 +1,13 @@
+<p>login works!</p>
+<div class="loginform">
+    <form #userform="ngForm" name="userform" (ngSubmit)="userform.valid && CheckUser()" >
+      <label></label>
+      <input type="text" name="name" class="name" required  [(ngModel)]="name" placeholder="Enter your name"><br>
+      <label></label>
+      <input type="text" name="mail" class="mail" required  [(ngModel)]="mail" placeholder="Enter your mail"><br>
+      <label></label>
+      <input type="password" name="pass" class="pass" required  [(ngModel)]="pass" placeholder="Enter your password"><br>
+      <label></label>
+      <input type="submit" class="but" value="submit"><br>
+    </form>
+</div>

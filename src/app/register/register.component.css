@@ -1,0 +1,9 @@
+.Registerform
+{
+    margin-left: 800px;
+     margin-top: 200px;
+}
+.name , .mail ,.pass , .but
+{
+    margin:30px;
+}
